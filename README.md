@@ -16,19 +16,19 @@ We needed a fast way to bring new developers up with a development environment. 
 
 4. Add the box:
 
-```
-$ vagrant box add kaikiCrunchBang /path/to/downloaded/kaikiCB-1.0.box
-$ vagrant init kaikiCrunchBanggit 
-```
+		```
+		$ vagrant box add kaikiCrunchBang /path/to/downloaded/kaikiCB-1.0.box
+		$ vagrant init kaikiCrunchBanggit 
+		```
 
 5. Clone this project
 
 6. Start the box:
 
-```
-$ cd /path/to/kaiki-vagrant
-$ vagrant up
-```
+		```
+		$ cd /path/to/kaiki-vagrant
+		$ vagrant up
+		```
 
 7. Login to the box as the user vagrant
 
@@ -36,18 +36,18 @@ $ vagrant up
 
 9. Clone the (kaikifs project)
 
-```
-$ mkdir $HOME/code
-$ cd $HOME/code
-$ git clone git@github.com:ua-eas/katt-kaikifs.git kaiki
-```
+		```
+		$ mkdir $HOME/code
+		$ cd $HOME/code
+		$ git clone git@github.com:ua-eas/katt-kaikifs.git kaiki
+		```
 
 10. Run bundle install to download all of the required gems
 
-```
-$ cd $HOME/code/kaiki
-$ bindle install
-```
+		```
+		$ cd $HOME/code/kaiki
+		$ bindle install
+		```
 
 11. Done! You are now ready to start development on the Kaiki Project
 
