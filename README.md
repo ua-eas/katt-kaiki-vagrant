@@ -23,10 +23,8 @@ We needed a fast way to bring new developers up with a development environment. 
 
 6. Start the box:
 
-		```
 		$ cd /path/to/kaiki-vagrant
 		$ vagrant up
-		```
 
 7. Login to the box as the user vagrant
 
