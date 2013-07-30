@@ -11,7 +11,10 @@ Vagrant.configure("2") do |config|
 
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
-  config.vm.box_url = "http://uaz-kf-a09.mosaic.arizona.edu:8008/vagrant/kaikiCB.box"
+  #Note that I am commenting this out until we figure out a better way to share boxes. For now,
+  #users can download the box from google drive and manually add the box like so:
+  # $ vagrant box add kaikiCrunchBang /path/to/kaikiCB-1.0.box
+  #config.vm.box_url = "https://docs.google.com/file/d/0B6IXHSXb1jibSURpUjVwOWFTNWs/edit?usp=sharing"
 
   # Create a forwarded port mapping which allows access to a specific port
   # within the machine from a port on the host machine. In the example below,
